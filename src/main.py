@@ -14,7 +14,7 @@ class UserConsole:
 
     def __init__(self, input_path="SampleInput"):
         self.input_path = input_path
-        self.output_path = "SampleOutput"
+        self.output_path = "../SampleOutput"
 
     def _handle_input_file(self) -> None:
         while True:
